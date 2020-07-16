@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- FONTS -->
+    <link rel="stylesheet" href="css/fonts.css">
+
+    <!-- STYLES -->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link rel="stylesheet" href="css/popup.css">
+</head>
+
+<body>
+    <!-- HEADER -->
+    <header class='fixed'>
+        <div class='line'></div>
+        <img id="logo" class="responsive-img" src='images/icons/128.png' />
+        <h6 id="title">Gmail Labels as Tabs&nbsp;<small>by Puru</small></h6>
+        <p id="subtitle" class='center'>Made in Nepal with <i class="material-icons tiny"
+                style="color: #e53935; vertical-align: text-top;">favorite</i></p>
+        <div id="links" class='center'>
+            <a id="github" class="center" href="https://tuladhar.github.io/gmail-labels-as-tabs"
+                style="background-color: #444242;">
+                <i class="material-icons tiny" style="vertical-align: sub;">code</i>
+                Github
+            </a>
+            <a id="donation" class="center" href="https://tuladhar.github.io/gmail-labels-as-tabs/donation"
+                style="background-color: orange;margin-left: 4px;">
+                <i class="material-icons tiny" style="vertical-align: sub;">monetization_on</i>
+                Donate
+            </a>
+        </div>
+    </header>
+
+    <!-- MAIN -->
+    <main>
+        <!-- ERROR MESSAGE BOX -->
+        <div id="error-box" class='container hide'>
+            <i class="material-icons medium left" style="vertical-align: middle;">error</i>
+            <p id='error-message'></p>
+        </div>
+
+        <!-- AUTHORIZE BUTTON -->
+        <div class="container authorize center hide">
+            <br />
+            <a id="authorize" class="waves-effect waves-light blue btn-small pulse scale-transition"><i
+                    class="material-icons right">vpn_key</i>Authorize</a>
+            <p>Click on <b>Authorize</b> to allow permission<br />to <b>manage mailbox labels</b> of your Gmail account.
+            </p>
+        </div>
+
+        <!-- PRELOADER -->
+        <div id="preloader" class='container center'>
+            <br />
+            <div class="preloader-wrapper big active">
+                <div class="spinner-layer spinner-red-only">
+                    <div class="circle-clipper left">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="gap-patch">
+                        <div class="circle"></div>
+                    </div>
+                    <div class="circle-clipper right">
+                        <div class="circle"></div>
+                    </div>
+                </div>
+                <br />
+            </div>
+        </div>
+
+        <!-- LABELS UI -->
+        <div id="labels-ui" class="container hide">
+            <ol class='o-sortable collection' id="labels_collection"></ol>
+        </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer class="page-footer fixed center">
+        <div class='line'></div>
+    </footer>
+
+    <!--  JAVASCRIPT LIBRARIES -->z
+    <script type="text/javascript" src="js/html5sortable.min.js" id="html5sortable"></script>
+    <script type="text/javascript" src="js/gapiclient.js"></script>
+    <script type="text/javascript" src="js/popup.js"></script>
+</body>
+
+</html>
