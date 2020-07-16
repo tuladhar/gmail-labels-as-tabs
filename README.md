@@ -2,7 +2,7 @@
   <img src="images/logo.png" />
 </p>
 
-**Gmail Labels as Tabs** is an email productivity extension for Google Chrome that customizes your Gmail interface by adding Gmail labels as tabs. Organize your Gmail mailbox labels as tabs!
+**Gmail Labels as Tabs** is an email productivity extension for Google Chrome that customizes your Gmail interface by adding Gmail labels as tabs.
 
 ★ Organize your labels as Gmail tabs
 
@@ -20,7 +20,7 @@
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/XF5KXcwmlmo/0.jpg)](https://www.youtube.com/watch?v=XF5KXcwmlmo)
 
 ### Screenshots
-<p>
+<p align="left">
 <img width=600 src="images/screenshots/screenshot-1.png" />
 <img width=600 src="images/screenshots/screenshot-2.png" />  
 </p>
