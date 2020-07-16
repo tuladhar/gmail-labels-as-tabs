@@ -20,10 +20,8 @@
 [![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/XF5KXcwmlmo/0.jpg)](https://www.youtube.com/watch?v=XF5KXcwmlmo)
 
 ### Screenshots
-<p align="left">
-<img width=600 src="images/screenshots/screenshot-1.png" />
-<img width=600 src="images/screenshots/screenshot-2.png" />  
-</p>
+![](images/screenshots/screenshot-1.png)
+![](images/screenshots/screenshot-2.png)
 
 ## Developer
 [Puru Tuladhar](https://github.com/tuladhar)
