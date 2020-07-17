@@ -26,4 +26,6 @@
 ![](images/screenshots/screenshot-2.png)
 
 ## Developer
-[Puru Tuladhar](https://github.com/tuladhar)
+[Puru Tuladhar](https://tuladhar.github.io/about-me/)
+
+## [:heart: Donation](https://tuladhar.github.io/gmail-labels-as-tabs/DONATION)
