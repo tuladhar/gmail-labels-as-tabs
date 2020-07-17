@@ -6,4 +6,4 @@
 
 ## [:heart: Donation](https://tuladhar.github.io/gmail-labels-as-tabs/DONATION)
 
-If you like my work, donation accepted!
+If you like my work, [donation](https://tuladhar.github.io/gmail-labels-as-tabs/DONATION) accepted!
