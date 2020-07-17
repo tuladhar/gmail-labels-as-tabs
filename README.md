@@ -1,3 +1,5 @@
+<link rel="shortcut icon" type="image/x-icon" href="gmail-labels-as-tabs/images/icons/16.png">
+
 <p align="center">
   <img src="images/logo.png" />
 </p>
