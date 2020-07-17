@@ -2,7 +2,7 @@ theme: jekyll-theme-minimal
 google_analytics: UA-172929172-2
 logo: images/logo.png
 title: Gmail Labels as Tabs
-description: Organize your labels as Gmail tabs
+description: Organize your labels as Gmail tabs.
 
 plugins:
   - jemoji
