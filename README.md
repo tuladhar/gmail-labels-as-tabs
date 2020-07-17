@@ -1,7 +1,7 @@
 <link rel="shortcut icon" type="image/x-icon" href="gmail-labels-as-tabs/images/icons/16.png">
 
 <p align="center">
-  <img src="images/logo.png" />
+  <img width="240" src="images/store-listing/small-promo-tile.jpg" />
 </p>
 
 **Gmail Labels as Tabs** is an email productivity extension for Google Chrome that customizes your Gmail interface by adding Gmail labels as tabs.
