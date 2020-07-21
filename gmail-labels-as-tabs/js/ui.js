@@ -69,12 +69,10 @@ function isGmailDarkMode() {
 }
 
 function createTab(label) {
-    // TAB
     var tab = document.createElement("div")
     tab.addEventListener('click', () => activateTab(tab))
     tab.classList.add("labels-tab")
 
-    // LABEL TEXT
     var text = document.createElement("span")
     text.classList.add('labels-tab__text')
     if (isGmailDarkMode()) {
@@ -85,14 +83,12 @@ function createTab(label) {
     text.innerText = label.name
     tab.appendChild(text)
 
-    // MESSAGE UNREAD CHIP
     var chip = document.createElement("span")
     chip.classList.add('labels-tab__chip');
     var label_name = label.name;
     if (label.name == "INBOX") {
         label_name = "Inbox";
     }
-    // GET UNREAD COUNT FROM GMAIL
     var el = document.querySelector(`div[data-tooltip='${label_name}']`)
     if (el === null) {
         chip.style.display = 'none'
@@ -107,7 +103,6 @@ function createTab(label) {
     }
     tab.appendChild(chip)
 
-    // TAB
     return tab
 }
 
@@ -117,14 +112,6 @@ function __getUnreadCountByLabel(name) {
         return null
     }
     return bsU.innerText
-}
-
-function createRefreshUI() {
-    var span = document.createElement('span')
-    span.setAttribute("id", "labels-tabs__refresh")
-    span.style.display = 'none'
-    span.addEventListener('click', buildTabsUI)
-    return span
 }
 
 function destroyTabsUI() {
@@ -140,9 +127,6 @@ function buildTabsUI() {
         var labels = result.labels;
         var div = document.createElement("div");
         div.classList.add('labels-tabs');
-
-        var refreshUI = createRefreshUI()
-        document.body.appendChild(refreshUI)
 
         var pinned_labels = labels.filter((label) => { return label.pinned === "true" });
         for (let label of pinned_labels) {
