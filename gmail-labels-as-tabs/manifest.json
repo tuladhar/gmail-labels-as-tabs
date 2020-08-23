@@ -1,6 +1,6 @@
 {
     "name": "Gmail Labels as Tabs",
-    "version": "2.2.3",
+    "version": "2.2.4",
     "description": "Organize your Gmail mailbox labels as tabs.",
     "manifest_version": 2,
     "permissions": [
