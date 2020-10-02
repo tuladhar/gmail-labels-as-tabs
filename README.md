@@ -27,6 +27,9 @@
 ![](images/screenshots/screenshot-1.png)
 ![](images/screenshots/screenshot-2.png)
 
+### How-to GIF
+![How-to GIF](https://media.giphy.com/media/tw8b375IROmkxpjNBH/giphy.gif)
+
 ## Developer
 [Puru Tuladhar](https://tuladhar.github.io/about-me/)
 
