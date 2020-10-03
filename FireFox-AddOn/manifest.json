@@ -1,0 +1,70 @@
+{
+
+  "description": "Organize your Gmail mailbox labels as tabs.",
+  "manifest_version": 2,
+  "name": "Gmail Labels as Tabs",
+  "version": "1.0",
+  "icons": {
+    "48": "images/icons/48.png"
+  },
+
+ "permissions": [
+    "activeTab",
+      "declarativeContent",
+        "storage",
+        "identity"    
+  ],
+
+  "browser_action": {
+	"default_icon": {
+            "16": "images/icons/16.png",
+            "32": "images/icons/32.png",
+            "48": "images/icons/48.png",
+            "128": "images/icons/128.png"
+        },
+    "theme_icons": [{
+        "light": "images/icons/32.pngg",
+        "dark": "images/icons/32.png",
+        "size": 32
+    }],
+    "default_title": "Gmail Labels as Tabs",
+    "default_popup": "popup.html"
+  },
+      "icons": {
+        "16": "images/icons/16.png",
+        "32": "images/icons/32.png",
+        "48": "images/icons/48.png",
+        "128": "images/icons/128.png"
+    },
+    "oauth2": {
+        "client_id": "182667075532-ksut7cmajcg9qgvic145f469je6ldn11.apps.googleusercontent.com",
+        "scopes": [
+            "https://www.googleapis.com/auth/gmail.labels"
+        ]
+    },    
+    "background": {
+        "scripts": [
+            "js/background.js"
+        ],
+        "persistent": false
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://mail.google.com/*"
+            ],
+            "js": [
+                "js/ui.js"
+            ],
+            "css": [
+                "css/ui.css"
+            ],
+            "run_at": "document_end"
+        }
+    ],
+    "content_security_policy": "script-src 'self' https://apis.google.com/; object-src 'self'",
+   "web_accessible_resources": [
+        "font/*.woff2"
+    ]
+
+}
