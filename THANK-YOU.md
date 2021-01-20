@@ -1,4 +1,4 @@
-# Thank you :pray: for installing "Gmail Labels as Tabs" extension
+# Thank you for installing "Gmail Labels as Tabs" extension
 
 ### Watch 20 seconds "How-to" video on Youtube
 
